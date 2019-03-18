@@ -5,9 +5,9 @@ if platform.system().lower() == "windows":
 
 default_filename='youtube_file'
 if len(sys.argv) != 2:
-  print('\n    \033[1;31mpy\033[0m\033[1;77mtube v1.0\033[0m')
-  print('\n\033[1;77m[\033[0m\033[1;31m+\033[0m\033[1;77m]\033[0m\033[1;77m Usage: pytube.py youtube_url_code\033[0m')
-  print('\033[1;77m[\033[0m\033[1;31m+\033[0m\033[1;77m]\033[0m\033[1;93m E.g.: python pytube.py PuG9Fsw2e9c\033[0m')
+  print('\n    \033[1;31myoupy\033[0m\033[1;77m.. Tube v1.0\033[0m')
+  print('\n\033[1;77m[\033[0m\033[1;31m+\033[0m\033[1;77m]\033[0m\033[1;77m Usage: youpy.py youtube_url_code\033[0m')
+  print('\033[1;77m[\033[0m\033[1;31m+\033[0m\033[1;77m]\033[0m\033[1;93m E.g.: python youpy.py PuG9Fsw2e9c\033[0m')
   exit()
 
 user_agent = 'Mozilla/5.0 (X11; Linux i686; rv:52.0) Gecko/20100101 Firefox/52.0'
