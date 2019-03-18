@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# pytube v1.0
-# Coded by: github.com/thelinuxchoice/pytube
 import requests, json, os, sys, signal, platform
 
 if platform.system().lower() == "windows":
